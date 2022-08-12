@@ -1,0 +1,13 @@
+{
+  "applicationName": "mentor",
+  "routeConfig": {
+    "routes": [
+      {
+        "path": "/createcourse",
+        "componentName": "MentorCreateCourseLayout",
+        "importPath": "MentorCreateCourseLayout",
+        "child_routes": null
+      }
+    ]
+  }
+}

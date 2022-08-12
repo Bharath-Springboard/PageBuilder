@@ -1,0 +1,16 @@
+{
+  "layoutIdentity": [
+    {
+      "name": "profileLayout",
+      "areaId": "PROFILE_COMPONENT_1"
+    },
+    {
+      "name": "MentorProfileLayout",
+      "areaId": "MENTOR_APP1_ID3"
+    }
+  ],
+  "domain": "student",
+  "importPath": "packages/student/components/studentprofile/src/index",
+  "name": "StudentComponentsStudentprofile",
+  "componentConfig": {}
+}

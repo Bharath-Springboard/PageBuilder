@@ -1,0 +1,6 @@
+{
+  "applicationName": "mentor",
+  "asyncConfigPath": "packages/mentor/core/configs/asyncConfig",
+  "clientManagerPath": "apps/frontend/ClientService/clientManager",
+  "createClientPath": "apps/frontend/ClientService/createClient"
+}

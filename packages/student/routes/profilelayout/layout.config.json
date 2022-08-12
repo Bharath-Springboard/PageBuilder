@@ -1,0 +1,6 @@
+{
+  "name": "ProfileLayout",
+  "appName": "student",
+  "layoutConfig": {},
+  "importPath": "packages/student/routes/profilelayout/src"
+}

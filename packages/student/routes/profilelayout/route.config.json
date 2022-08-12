@@ -1,0 +1,13 @@
+{
+  "applicationName": "student",
+  "routeConfig": {
+    "routes": [
+      {
+        "path": "/profile",
+        "componentName": "Profilelayout",
+        "importPath": "profilelayout",
+        "child_routes": null
+      }
+    ]
+  }
+}

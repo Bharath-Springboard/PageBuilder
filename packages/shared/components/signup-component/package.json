@@ -1,0 +1,7 @@
+{
+  "name": "SignupComponent",
+  "version": "0.0.1",
+  "scripts": {
+    "gen": "graphql-codegen"
+  }
+}

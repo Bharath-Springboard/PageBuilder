@@ -1,0 +1,72 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2017", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "ApolloClientStore": [
+        "packages/shared/services/apollo-client-store/src/index.ts"
+      ],
+      "ApolloServerState": ["apps/backend/springboardapi/src/main.ts"],
+      "CourseDetailsComponent": [
+        "packages/mentor/components/course-details-component/src/index.ts"
+      ],
+      "CourseDetailsLayout": [
+        "packages/mentor/routes/course-details-layout/src/index.ts"
+      ],
+      "CreateCourseComponent": [
+        "packages/mentor/components/create-course-component/src/index.ts"
+      ],
+      "MentorCreateCourseLayout": [
+        "packages/mentor/routes/create-course-layout/src/index.ts"
+      ],
+      "InputField": ["packages/shared/components/input-field/src/index.ts"],
+      "LoginComponent": [
+        "packages/shared/components/login-component/src/index.ts"
+      ],
+      "MentorDashboardLayout": [
+        "packages/mentor/routes/mentor-dashboard-layout/src/index.ts"
+      ],
+      "MentorProfileLayout": [
+        "packages/mentor/routes/mentor-profile-layout/src/index.ts"
+      ],
+      "RegisterComponent": [
+        "packages/student/components/register-component/src/index.ts"
+      ],
+      "SignupComponent": [
+        "packages/shared/components/signup-component/src/index.ts"
+      ],
+      "StudentExplore": ["packages/student/components/explore/src/index.ts"],
+      "StudentProfile": [
+        "packages/student/components/studentprofile/src/index.ts"
+      ],
+      "authlayout": ["packages/shared/components/authlayout/src/index.ts"],
+      "dashboard": ["packages/student/routes/dashboard/src/index.ts"],
+      "explorelayout": ["packages/student/routes/explorelayout/src/index.ts"],
+      "profilelayout": ["packages/student/routes/profilelayout/src/index.ts"],
+      "registerlayout": ["packages/student/routes/registerlayout/src/index.ts"],
+      "studentperformance": [
+        "packages/student/components/studentperformance/src/index.ts"
+      ],
+      "studentprogress": [
+        "packages/student/components/studentprogress/src/index.ts"
+      ],
+      "subscribedcourses": [
+        "packages/student/components/subscribedcourses/src/index.ts"
+      ],
+      "toErrorMap": ["packages/shared/utils/to-error-map/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}

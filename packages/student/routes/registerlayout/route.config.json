@@ -1,0 +1,13 @@
+{
+  "applicationName": "student",
+  "routeConfig": {
+    "routes": [
+      {
+        "path": "/register",
+        "componentName": "Registerlayout",
+        "importPath": "registerlayout",
+        "child_routes": null
+      }
+    ]
+  }
+}

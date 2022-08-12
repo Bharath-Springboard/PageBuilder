@@ -1,0 +1,12 @@
+{
+  "layoutIdentity": [
+    {
+      "name": "MentorCreateCourseLayout",
+      "areaId": "Mentor_Create_Course"
+    }
+  ],
+  "domain": "mentor",
+  "importPath": "CreateCourseComponent",
+  "name": "MentorCreateCourse",
+  "componentConfig": {}
+}

@@ -1,0 +1,12 @@
+{
+  "layoutIdentity": [
+    {
+      "name": "registerLayout",
+      "areaId": "REGISTER_COMPONENT_1"
+    }
+  ],
+  "domain": "student",
+  "importPath": "packages/student/components/register-component/src/index",
+  "name": "RegisterComponent",
+  "componentConfig": {}
+}

@@ -1,0 +1,6 @@
+{
+  "name": "ExploreLayout",
+  "appName": "student",
+  "layoutConfig": {},
+  "importPath": "packages/student/routes/explorelayout/src"
+}

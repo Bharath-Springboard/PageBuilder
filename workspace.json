@@ -1,0 +1,32 @@
+{
+  "$schema": "./node_modules/nx/schemas/workspace-schema.json",
+  "version": 2,
+  "projects": {
+    "backend-springboardapi": "apps/backend/springboardapi",
+    "frontend-mentor": "apps/frontend/mentor",
+    "frontend-mentor-e2e": "apps/frontend/mentor-e2e",
+    "frontend-student": "apps/frontend/student",
+    "frontend-student-e2e": "apps/frontend/student-e2e",
+    "mentor-components-course-details-component": "packages/mentor/components/course-details-component",
+    "mentor-components-create-course-component": "packages/mentor/components/create-course-component",
+    "mentor-layouts-course-details-layout": "packages/mentor/routes/course-details-layout",
+    "mentor-layouts-create-course-layout": "packages/mentor/routes/create-course-layout",
+    "mentor-layouts-mentor-dashboard-layout": "packages/mentor/routes/mentor-dashboard-layout",
+    "mentor-layouts-mentor-profile-layout": "packages/mentor/routes/mentor-profile-layout",
+    "shared-components-authlayout": "packages/shared/components/authlayout",
+    "shared-components-input-field": "packages/shared/components/input-field",
+    "shared-components-login-component": "packages/shared/components/login-component",
+    "shared-components-signup-component": "packages/shared/components/signup-component",
+    "shared-utils-to-error-map": "packages/shared/utils/to-error-map",
+    "student-components-explore": "packages/student/components/explore",
+    "student-components-register-component": "packages/student/components/register-component",
+    "student-components-studentperformance": "packages/student/components/studentperformance",
+    "student-components-studentprofile": "packages/student/components/studentprofile",
+    "student-components-studentprogress": "packages/student/components/studentprogress",
+    "student-components-subscribedcourses": "packages/student/components/subscribedcourses",
+    "student-routes-dashboard": "packages/student/routes/dashboard",
+    "student-routes-explorelayout": "packages/student/routes/explorelayout",
+    "student-routes-profilelayout": "packages/student/routes/profilelayout",
+    "student-routes-registerlayout": "packages/student/routes/registerlayout"
+  }
+}

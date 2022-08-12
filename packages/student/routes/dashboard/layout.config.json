@@ -1,0 +1,6 @@
+{
+  "name": "dashboardLayout",
+  "appName": "student",
+  "layoutConfig": {},
+  "importPath": "packages/student/routes/dashboard/src"
+}

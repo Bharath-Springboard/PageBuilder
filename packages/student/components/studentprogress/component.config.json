@@ -1,0 +1,16 @@
+{
+  "layoutIdentity": [
+    {
+      "name": "dashboardlayout",
+      "areaId": "DASHBOARD_APP_ID3"
+    },
+    {
+      "name": "mentorDashboardLayout",
+      "areaId": "MENTOR_APP1_ID5"
+    }
+  ],
+  "domain": "student",
+  "importPath": "studentprogress",
+  "name": "StudentProgress",
+  "componentConfig": {}
+}

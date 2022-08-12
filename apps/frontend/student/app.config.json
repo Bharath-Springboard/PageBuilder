@@ -1,0 +1,6 @@
+{
+  "applicationName": "student",
+  "asyncConfigPath": "packages/student/core/configs/asyncConfig",
+  "clientManagerPath": "apps/frontend/ClientService/clientManager",
+  "createClientPath": "apps/frontend/ClientService/createClient"
+}

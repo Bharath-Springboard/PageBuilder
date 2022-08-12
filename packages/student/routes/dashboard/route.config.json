@@ -1,0 +1,13 @@
+{
+  "applicationName": "student",
+  "routeConfig": {
+    "routes": [
+      {
+        "path": "/dashboard",
+        "componentName": "StudentDashboard",
+        "importPath": "dashboard",
+        "child_routes": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "applicationName": "student",
+  "routeConfig": {
+    "routes": [
+      {
+        "path": "auth",
+        "componentName": "AuthLayout",
+        "importPath": "authlayout",
+        "child_routes": [
+          {
+            "path": "login",
+            "componentName": "LoginComponent",
+            "importPath": "LoginComponent"
+          },
+          {
+            "path": "signup",
+            "componentName": "SignupComponent",
+            "importPath": "SignupComponent",
+            "child_routes": null
+          }
+        ]
+      }
+    ]
+  }
+}

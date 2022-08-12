@@ -1,0 +1,13 @@
+{
+  "applicationName": "mentor",
+  "routeConfig": {
+    "routes": [
+      {
+        "path": "/profile",
+        "componentName": "MentorProfileLayout",
+        "importPath": "MentorProfileLayout",
+        "child_routes": null
+      }
+    ]
+  }
+}

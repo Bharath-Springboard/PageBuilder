@@ -1,0 +1,85 @@
+{
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "name": "mentor",
+  "sourceRoot": "apps/frontend/mentor/src",
+  "projectType": "application",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/web:webpack",
+      "outputs": ["{options.outputPath}"],
+      "defaultConfiguration": "production",
+      "options": {
+        "compiler": "babel",
+        "outputPath": "dist/apps/frontend/mentor",
+        "index": "apps/frontend/mentor/src/index.html",
+        "baseHref": "/",
+        "main": "apps/frontend/mentor/src/main.tsx",
+        "polyfills": "apps/frontend/mentor/src/polyfills.ts",
+        "tsConfig": "apps/frontend/mentor/tsconfig.app.json",
+        "assets": [
+          "apps/frontend/mentor/src/favicon.ico",
+          "apps/frontend/mentor/src/assets"
+        ],
+        "styles": ["apps/frontend/mentor/src/styles.css"],
+        "scripts": [],
+        "webpackConfig": "@nrwl/react/plugins/webpack"
+      },
+      "configurations": {
+        "development": {
+          "extractLicenses": false,
+          "optimization": false,
+          "sourceMap": true,
+          "vendorChunk": true
+        },
+        "production": {
+          "fileReplacements": [
+            {
+              "replace": "apps/frontend/mentor/src/environments/environment.ts",
+              "with": "apps/frontend/mentor/src/environments/environment.prod.ts"
+            }
+          ],
+          "optimization": true,
+          "outputHashing": "all",
+          "sourceMap": false,
+          "namedChunks": false,
+          "extractLicenses": true,
+          "vendorChunk": false
+        }
+      }
+    },
+    "serve": {
+      "executor": "@nrwl/web:dev-server",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "frontend-mentor:build",
+        "hmr": true,
+        "port": 4202
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "frontend-mentor:build:development"
+        },
+        "production": {
+          "buildTarget": "frontend-mentor:build:production",
+          "hmr": false
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/frontend/mentor/**/*.{ts,tsx,js,jsx}"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/apps/frontend/mentor"],
+      "options": {
+        "jestConfig": "apps/frontend/mentor/jest.config.ts",
+        "passWithNoTests": true
+      }
+    }
+  },
+  "tags": []
+}

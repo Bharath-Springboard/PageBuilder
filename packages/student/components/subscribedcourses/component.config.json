@@ -1,0 +1,16 @@
+{
+  "layoutIdentity": [
+    {
+      "name": "dashboardlayout",
+      "areaId": "DASHBOARD_APP_ID1"
+    },
+    {
+      "name": "mentorDashboardLayout",
+      "areaId": "MENTOR_APP1_ID6"
+    }
+  ],
+  "domain": "student",
+  "importPath": "subscribedcourses",
+  "name": "SubscribedCourses",
+  "componentConfig": {}
+}

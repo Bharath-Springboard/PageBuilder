@@ -1,0 +1,13 @@
+{
+  "applicationName": "mentor",
+  "routeConfig": {
+    "routes": [
+      {
+        "path": "/dashboard",
+        "componentName": "MentorDashboardLayout",
+        "importPath": "MentorDashboardLayout",
+        "child_routes": null
+      }
+    ]
+  }
+}

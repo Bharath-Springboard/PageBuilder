@@ -1,0 +1,6 @@
+{
+  "name": "authLayout",
+  "appName": "student",
+  "layoutConfig": {},
+  "importPath": "packages/student/routes/dashboard/src"
+}

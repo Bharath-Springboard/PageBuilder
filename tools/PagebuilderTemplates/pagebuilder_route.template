@@ -1,0 +1,11 @@
+import { Route, Routes } from "react-router-dom";
+
+const RenderRoutes = () => {
+  return (
+    <Routes>
+      __ROUTES__CONFIG__REPLACEMENT
+    </Routes>
+  );
+};
+
+export default RenderRoutes;

@@ -1,0 +1,13 @@
+{
+  "applicationName": "student",
+  "routeConfig": {
+    "routes": [
+      {
+        "path": "/explore",
+        "componentName": "Explorelayout",
+        "importPath": "explorelayout",
+        "child_routes": null
+      }
+    ]
+  }
+}

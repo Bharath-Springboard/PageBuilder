@@ -1,0 +1,6 @@
+{
+  "name": "RegisterLayout",
+  "appName": "student",
+  "layoutConfig": {},
+  "importPath": "packages/student/routes/registerlayout/src"
+}

@@ -1,0 +1,16 @@
+{
+  "layoutIdentity": [
+    {
+      "name": "dashboardlayout",
+      "areaId": "DASHBOARD_APP_ID2"
+    },
+    {
+      "name": "mentorDashboardLayout",
+      "areaId": "MENTOR_APP1_ID4"
+    }
+  ],
+  "domain": "student",
+  "importPath": "studentperformance",
+  "name": "StudentPerformance",
+  "componentConfig": {}
+}

@@ -1,0 +1,12 @@
+{
+  "layoutIdentity": [
+    {
+      "name": "exploreLayout",
+      "areaId": "EXPLORE_COMPONENT_1"
+    }
+  ],
+  "domain": "student",
+  "importPath": "packages/student/components/explore/src/index",
+  "name": "StudentComponentsExplore",
+  "componentConfig": {}
+}
